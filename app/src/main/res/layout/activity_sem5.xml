@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom2"
+    tools:context=".sem5">
+
+
+
+    <Button
+        android:layout_width="317dp"
+        android:layout_height="63dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:text="AI"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="90dp"
+        android:id="@+id/ai"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:layout_width="317dp"
+        android:layout_height="63dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:text="Linux S A"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@id/ai"
+        android:layout_marginTop="20dp"
+        android:id="@+id/linuxsa"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:id="@+id/softest"
+        android:layout_width="317dp"
+        android:layout_height="63dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:layout_below="@+id/linuxsa"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Software Testing"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="317dp"
+        android:layout_height="63dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:text="Networkn Securty"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@id/softest"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ins"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:id="@+id/archiot"
+        android:layout_width="317dp"
+        android:layout_height="63dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:layout_below="@id/ins"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text=" Arch(IOT)"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="317dp"
+        android:layout_height="63dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Web SERVICES"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/archiot"
+        android:id="@+id/webservice"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:layout_width="317dp"
+        android:layout_height="63dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="game programing"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/webservice"
+        android:id="@+id/gameprog"
+        android:layout_marginLeft="50dp"/>
+
+</RelativeLayout>

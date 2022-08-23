@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9E74EE"
+    tools:context=".sem3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom2">
+
+
+        <Button
+            android:id="@+id/toc"
+            android:layout_width="317dp"
+            android:layout_height="62dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/cutom_button"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="90dp"
+            android:text="T O C"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    <Button
+        android:layout_width="317dp"
+        android:layout_height="62dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:text="Core JAVA"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@id/toc"
+        android:layout_marginTop="20dp"
+        android:id="@+id/corejava"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:id="@+id/os"
+        android:layout_width="317dp"
+        android:layout_height="62dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:layout_below="@+id/corejava"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Operating system"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/dbms2"
+        android:layout_width="317dp"
+        android:layout_height="62dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:layout_below="@id/os"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="DBMS "
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/graphtheo"
+        android:layout_width="317dp"
+        android:layout_height="62dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:layout_below="@id/dbms2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Graph Theory"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="317dp"
+        android:layout_height="62dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="IOT"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/graphtheo"
+        android:id="@+id/iot"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:id="@+id/webp"
+        android:layout_width="317dp"
+        android:layout_height="62dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:layout_below="@+id/iot"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Web programming"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

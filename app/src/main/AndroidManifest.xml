@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.questionapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconsplash"
+        android:label="Q Papers"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".softwareengineer"></activity>
+        <activity android:name=".ethicalhacking" />
+        <activity android:name=".datascience" />
+        <activity android:name=".dagitalimageprocessing" />
+        <activity android:name=".informationretrieval" />
+        <activity android:name=".cyberforensics" />
+        <activity android:name=".cloudomputing" />
+        <activity android:name=".wsnetworkandmobliecommnication" />
+        <activity android:name=".gameprograming" />
+        <activity android:name=".webservices" />
+        <activity android:name=".networksecurity" />
+        <activity android:name=".architectureofiot" />
+        <activity android:name=".softwaretesting" />
+        <activity android:name=".linuxserveradministration" />
+        <activity android:name=".ai" />
+        <activity android:name=".android" />
+        <activity android:name=".dotnet" />
+        <activity android:name=".linearalgebra" />
+        <activity android:name=".computernetwork" />
+        <activity android:name=".advjava" />
+        <activity android:name=".fundamentalofalgorithm" />
+        <activity android:name=".operatingsystem" />
+        <activity android:name=".webprograming" />
+        <activity android:name=".iot" />
+        <activity android:name=".graphtheory" />
+        <activity android:name=".dbms2" />
+        <activity android:name=".corejava" />
+        <activity android:name=".theoryofcomputer" />
+        <activity android:name=".greentechnology" />
+        <activity android:name=".statistic2" />
+        <activity android:name=".calculus" />
+        <activity android:name=".datastructure" />
+        <activity android:name=".linux" />
+        <activity android:name=".python2" />
+        <activity android:name=".programingC" />
+        <activity android:name=".softskill" />
+        <activity android:name=".stats" />
+        <activity android:name=".dmaths" />
+        <activity android:name=".dbms" />
+        <activity android:name=".foss" />
+        <activity android:name=".python1" />
+        <activity android:name=".cod" />
+        <activity android:name=".sem6" />
+        <activity android:name=".sem5" />
+        <activity android:name=".sem4" />
+        <activity android:name=".sem3" />
+        <activity android:name=".sem2" />
+        <activity android:name=".sem1" />
+        <activity android:name=".tysem" />
+        <activity android:name=".sysem" />
+        <activity android:name=".fysem" />
+        <activity android:name=".stream" />
+        <activity android:name=".MainScreen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+   android:background="@drawable/cutom_button"
+    android:layout_height="match_parent"
+    tools:context=".sem1">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom2">
+
+        <Button
+            android:id="@+id/COD"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/cutom_button"
+            android:text="C O D"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/python1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/COD"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/cutom_button"
+            android:text="PYTHON-1"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/foss"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/python1"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/cutom_button"
+            android:text="FOSS"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dbs"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/foss"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/cutom_button"
+            android:text="DBS"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dmaths"
+            android:layout_width="250dp"
+            android:layout_height="106dp"
+            android:layout_below="@id/dbs"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/cutom_button"
+            android:text="Discrete Maths"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/stats"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dmaths"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/cutom_button"
+            android:text="Statistics"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/softskill"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/stats"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/cutom_button"
+            android:text="Soft Skill"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    </RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#465F2A"
+    android:layout_height="match_parent"
+    tools:context=".sem4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom2">
+
+    <Button
+        android:layout_width="317dp"
+        android:layout_height="63dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:text="FO-Alogrithm"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="90dp"
+        android:id="@+id/foa"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:layout_width="317dp"
+        android:layout_height="63dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:text="Advance Java"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@id/foa"
+        android:layout_marginTop="20dp"
+        android:id="@+id/advjava"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:id="@+id/cn"
+        android:layout_width="317dp"
+        android:layout_height="63dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:layout_below="@+id/advjava"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Computer Network"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+        <Button
+        android:id="@+id/linalgebra"
+        android:layout_width="317dp"
+        android:layout_height="63dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:layout_below="@id/cn"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Linear Algebra"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="317dp"
+        android:layout_height="63dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="DOT NET"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/linalgebra"
+        android:id="@+id/dotnet"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:layout_width="317dp"
+        android:layout_height="63dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Android"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/dotnet"
+        android:id="@+id/android"
+        android:layout_marginLeft="50dp"/>
+
+
+        <Button
+            android:id="@+id/ext"
+            android:layout_width="317dp"
+            android:layout_height="63dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/cutom_button"
+            android:layout_below="@id/android"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Software Engineer"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

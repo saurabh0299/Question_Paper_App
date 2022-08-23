@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#81D1DB"
+    android:layout_height="match_parent"
+    tools:context=".sem2">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom2">
+
+        <Button
+            android:id="@+id/cprogram"
+            android:layout_width="308dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/cutom_button"
+            android:text="C PROGRAMMING"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+    <Button
+        android:layout_width="308dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:text="PYTHON-2"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@id/cprogram"
+        android:layout_marginTop="20dp"
+        android:id="@+id/python2"
+        />
+
+    <Button
+        android:layout_width="308dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="LINUX"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/python2"
+        android:id="@+id/linux"
+       />
+
+    <Button
+        android:id="@+id/datastruc"
+        android:layout_width="308dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:layout_below="@id/linux"
+        android:layout_marginTop="20dp"
+        android:text="Data Structure"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/calculus"
+        android:layout_width="308dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:layout_below="@id/datastruc"
+        android:layout_marginTop="20dp"
+        android:text="CALCULUS"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="308dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Statistics 2"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/calculus"
+        android:id="@+id/stats2"
+        />
+
+    <Button
+        android:id="@+id/greentech"
+        android:layout_width="308dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/cutom_button"
+        android:layout_below="@+id/stats2"
+        android:layout_marginTop="20dp"
+        android:text="Green Technology"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

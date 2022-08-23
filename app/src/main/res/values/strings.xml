@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">questionapp</string>
+    <string name="title_activity_sem_iiiiii">semIIIIII</string>
+    <string name="title_activity_semquestion">semquestion</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>
