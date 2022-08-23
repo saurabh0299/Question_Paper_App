@@ -1,0 +1,2 @@
+# Question_Paper_App
+ This app is designed for the students who search the various question paper at various sites .which is time consuming and loss of data .This app is one stop app for all the needed question paper in a single app  This app is developed for Educational Purpose,Where the students can download the question paper as a pdf. The system uses Android as front end and Google FireBase as a backend Database The implementation of the App will reduce Time Efficiency for Student. This app consist of various question papers.
